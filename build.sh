@@ -2,14 +2,18 @@ cat > build.sh << 'EOF'
 #!/usr/bin/env bash
 set -o errexit
 
+echo "==> Activating virtual environment..."
+source /opt/render/project/src/.venv/bin/activate || true
+
 echo "==> Upgrading pip..."
-python -m pip install --upgrade pip
+pip install --upgrade pip
 
 echo "==> Installing from requirements.txt..."
-python -m pip install -r requirements.txt
+pip install -r requirements.txt
 
 echo "==> Verifying gunicorn installation..."
-python -m pip show gunicorn
+which gunicorn
+gunicorn --version
 
 echo "==> Collecting static files..."
 python manage.py collectstatic --no-input --clear
