@@ -231,3 +231,6 @@ BACKEND_URL = config('BACKEND_URL', default='http://localhost:8000')
 DATABASES = {
     'default': dj_database_url.config(default=config('DATABASE_URL', default='sqlite:///db.sqlite3'))
 }
+
+# Static files
+STATIC_ROOT = BASE_DIR / 'staticfiles'
