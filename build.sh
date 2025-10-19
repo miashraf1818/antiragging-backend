@@ -2,7 +2,7 @@
 set -o errexit
 
 echo "Installing dependencies with Poetry..."
-poetry install --no-dev
+poetry install --only main
 
 echo "Collecting static files..."
 python manage.py collectstatic --no-input --clear
