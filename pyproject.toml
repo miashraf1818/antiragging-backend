@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "antiragging"
+version = "1.0.0"
+description = "Anti-Ragging Complaint Portal"
+authors = ["Mohammed Ikram <miashrafmiashraf18@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+Django = "5.2.6"
+djangorestframework = "3.15.2"
+django-cors-headers = "4.7.0"
+python-decouple = "3.8"
+gunicorn = "23.0.0"
+dj-database-url = "3.0.1"
+psycopg2-binary = "2.9.11"
+whitenoise = "6.11.0"
+djangorestframework-simplejwt = "5.4.0"
+Pillow = "11.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
