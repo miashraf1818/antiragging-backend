@@ -257,7 +257,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Mohammed Ikram Ashrafi**
 - GitHub: [@miashraf1818](https://github.com/miashraf1818)
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
+- Email: ikramshariff2005@gmail.com
 
 ***
 
@@ -272,7 +272,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For issues, questions, or suggestions:
-- **Email**: support@antiragging.com
 - **GitHub Issues**: [Report here](https://github.com/miashraf1818/antiragging-backend/issues)
 
 ---
